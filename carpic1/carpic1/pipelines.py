@@ -14,7 +14,7 @@ class Carpic1Pipeline(object):
 
         ssl._create_default_https_context = ssl._create_unverified_context
         #os.path.join(os.path.dirname(os.path.dirname(__file__)),'images')
-        self.path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images')
+        self.path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'dowload_images')
         if not os.path.exists(self.path):
             os.mkdir(self.path)
         else:
